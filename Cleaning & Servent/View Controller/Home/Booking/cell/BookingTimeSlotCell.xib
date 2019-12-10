@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookingTimeSlotCell" rowHeight="49" id="KGk-i7-Jjw" customClass="BookingTimeSlotCell" customModule="Fareed">
+            <rect key="frame" x="0.0" y="0.0" width="318" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="318" height="48.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z3I-ml-Wb5" customClass="GrayBorder" customModule="Fareed" customModuleProvider="target">
+                        <rect key="frame" x="2" y="3" width="314" height="42.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09-00 AM - 10:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsC-Ip-p4b">
+                                <rect key="frame" x="8" y="13.5" width="133.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXa-p9-Xfk">
+                                <rect key="frame" x="248.5" y="12.5" width="60.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rXa-p9-Xfk" firstAttribute="centerY" secondItem="z3I-ml-Wb5" secondAttribute="centerY" id="1GN-wM-wv6"/>
+                            <constraint firstItem="WsC-Ip-p4b" firstAttribute="leading" secondItem="z3I-ml-Wb5" secondAttribute="leading" constant="8" id="X9e-8j-6nY"/>
+                            <constraint firstAttribute="height" constant="42.5" id="XX9-Od-1mb"/>
+                            <constraint firstItem="WsC-Ip-p4b" firstAttribute="centerY" secondItem="z3I-ml-Wb5" secondAttribute="centerY" id="h6C-gx-4Kw"/>
+                            <constraint firstAttribute="trailing" secondItem="rXa-p9-Xfk" secondAttribute="trailing" constant="5" id="xnH-rH-89k"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="z3I-ml-Wb5" secondAttribute="trailing" constant="2" id="b7e-oD-Rds"/>
+                    <constraint firstItem="z3I-ml-Wb5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="mFH-SA-kGM"/>
+                    <constraint firstAttribute="bottom" secondItem="z3I-ml-Wb5" secondAttribute="bottom" constant="3" id="quI-MH-oS6"/>
+                    <constraint firstItem="z3I-ml-Wb5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="xGU-7r-HWR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="LBL_Avail" destination="rXa-p9-Xfk" id="Og3-Qi-tEU"/>
+                <outlet property="Lbl_Time" destination="WsC-Ip-p4b" id="E78-pS-GZq"/>
+                <outlet property="main_view" destination="z3I-ml-Wb5" id="oFr-tl-cmN"/>
+            </connections>
+            <point key="canvasLocation" x="44" y="53.5"/>
+        </tableViewCell>
+    </objects>
+</document>

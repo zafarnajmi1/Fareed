@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FaqCell" rowHeight="361" id="KGk-i7-Jjw" customClass="FaqCell" customModule="Cleaning___Servent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="361"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="360.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q4h-rP-Amu" customClass="RoundViewWithGrayBorder" customModule="Cleaning___Servent" customModuleProvider="target">
+                        <rect key="frame" x="4" y="4" width="312" height="352.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How long i should except to wait for receive a confirmation?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nk-O6-jRA">
+                                <rect key="frame" x="8" y="5" width="270" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="kpd-eh-mOB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rwD-Fz-fBo">
+                                <rect key="frame" x="278" y="0.0" width="34" height="34"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dropdown" translatesAutoresizingMaskIntoConstraints="NO" id="lrp-BG-rUc">
+                                        <rect key="frame" x="10" y="10" width="14" height="14"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="14" id="Jxt-dc-dhG"/>
+                                            <constraint firstAttribute="width" constant="14" id="Mxg-ME-COE"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="0Px-M4-LnS"/>
+                                    <constraint firstItem="lrp-BG-rUc" firstAttribute="centerY" secondItem="rwD-Fz-fBo" secondAttribute="centerY" id="B70-DG-Bk5"/>
+                                    <constraint firstItem="lrp-BG-rUc" firstAttribute="centerX" secondItem="rwD-Fz-fBo" secondAttribute="centerX" id="HH3-WA-FW2"/>
+                                    <constraint firstAttribute="height" constant="34" id="h0t-iv-vsf"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0r-HC-NAb">
+                                <rect key="frame" x="8" y="45" width="304" height="307.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="RGX-Fz-xIs"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="o0r-HC-NAb" secondAttribute="bottom" id="3bd-4j-kXD"/>
+                            <constraint firstItem="o0r-HC-NAb" firstAttribute="top" secondItem="6nk-O6-jRA" secondAttribute="bottom" id="Ehc-6k-uh6"/>
+                            <constraint firstItem="6nk-O6-jRA" firstAttribute="top" secondItem="Q4h-rP-Amu" secondAttribute="top" constant="5" id="GZf-wG-eEv"/>
+                            <constraint firstItem="o0r-HC-NAb" firstAttribute="trailing" secondItem="rwD-Fz-fBo" secondAttribute="trailing" id="OuT-89-QrQ"/>
+                            <constraint firstAttribute="trailing" secondItem="rwD-Fz-fBo" secondAttribute="trailing" id="SDX-oB-JXN"/>
+                            <constraint firstItem="o0r-HC-NAb" firstAttribute="leading" secondItem="6nk-O6-jRA" secondAttribute="leading" id="aPc-w0-InY"/>
+                            <constraint firstItem="6nk-O6-jRA" firstAttribute="leading" secondItem="Q4h-rP-Amu" secondAttribute="leading" constant="8" id="fr6-6h-TLf"/>
+                            <constraint firstItem="rwD-Fz-fBo" firstAttribute="top" secondItem="Q4h-rP-Amu" secondAttribute="top" id="j1p-1D-MfT"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34.5" id="qJd-JH-KUm"/>
+                            <constraint firstItem="rwD-Fz-fBo" firstAttribute="leading" secondItem="6nk-O6-jRA" secondAttribute="trailing" id="zUE-Xa-cbE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Q4h-rP-Amu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="9PU-BP-vwb"/>
+                    <constraint firstAttribute="bottom" secondItem="Q4h-rP-Amu" secondAttribute="bottom" constant="4" id="Ejm-Q3-bdl"/>
+                    <constraint firstAttribute="trailing" secondItem="Q4h-rP-Amu" secondAttribute="trailing" constant="4" id="dFu-YM-btM"/>
+                    <constraint firstItem="Q4h-rP-Amu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="dgR-ox-ufy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="Img_arrow" destination="lrp-BG-rUc" id="Duk-hj-Ivp"/>
+                <outlet property="LBL_Title" destination="6nk-O6-jRA" id="RpW-6h-9NC"/>
+                <outlet property="TV_detail" destination="o0r-HC-NAb" id="Ude-6Y-pDQ"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="212.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dropdown" width="24" height="24"/>
+    </resources>
+</document>

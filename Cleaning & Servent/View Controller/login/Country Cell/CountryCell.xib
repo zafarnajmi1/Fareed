@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CountryCell" rowHeight="52" id="KGk-i7-Jjw" customClass="CountryCell" customModule="Servent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="51.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IC6-uU-bI6">
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="52"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="country_flag" translatesAutoresizingMaskIntoConstraints="NO" id="ssR-5O-zTd">
+                                <rect key="frame" x="13" y="14.5" width="38" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="Ogv-kU-RzI"/>
+                                    <constraint firstAttribute="height" constant="22" id="tKI-10-Y4J"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text=" pakistqan is th as" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLf-lh-3s6">
+                                <rect key="frame" x="51" y="18" width="109.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+93" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHB-lq-3fA">
+                                <rect key="frame" x="160.5" y="20.5" width="197.5" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hHB-lq-3fA" firstAttribute="leading" secondItem="VLf-lh-3s6" secondAttribute="trailing" id="29U-Go-9jh"/>
+                            <constraint firstItem="ssR-5O-zTd" firstAttribute="leading" secondItem="IC6-uU-bI6" secondAttribute="leading" constant="13" id="Daw-bV-Xzi"/>
+                            <constraint firstItem="ssR-5O-zTd" firstAttribute="centerY" secondItem="IC6-uU-bI6" secondAttribute="centerY" id="RX8-9Y-Jk0"/>
+                            <constraint firstItem="VLf-lh-3s6" firstAttribute="leading" secondItem="ssR-5O-zTd" secondAttribute="trailing" id="SZ5-lb-R1f"/>
+                            <constraint firstItem="VLf-lh-3s6" firstAttribute="centerY" secondItem="ssR-5O-zTd" secondAttribute="centerY" id="dNp-BE-n7x"/>
+                            <constraint firstAttribute="trailing" secondItem="hHB-lq-3fA" secondAttribute="trailing" constant="14" id="iPc-tq-Jjf"/>
+                            <constraint firstItem="hHB-lq-3fA" firstAttribute="centerY" secondItem="IC6-uU-bI6" secondAttribute="centerY" id="xTB-fe-QSZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IC6-uU-bI6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HiK-ss-JbC"/>
+                    <constraint firstItem="IC6-uU-bI6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="JBQ-Mh-PAE"/>
+                    <constraint firstAttribute="trailing" secondItem="IC6-uU-bI6" secondAttribute="trailing" id="YUN-4k-Xcs"/>
+                    <constraint firstAttribute="bottom" secondItem="IC6-uU-bI6" secondAttribute="bottom" constant="-0.5" id="vbQ-2d-v63"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="code" destination="hHB-lq-3fA" id="bRX-cf-59i"/>
+                <outlet property="country_flag" destination="ssR-5O-zTd" id="2xO-Um-D1o"/>
+                <outlet property="name" destination="VLf-lh-3s6" id="ec4-Sb-N9S"/>
+            </connections>
+            <point key="canvasLocation" x="60" y="58"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="country_flag" width="66" height="45"/>
+    </resources>
+</document>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookingDetailCell" rowHeight="115" id="KGk-i7-Jjw" customClass="BookingDetailCell" customModule="Fareed" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="114.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nb8-Ty-Zn4" customClass="RoundViewWithShadow" customModule="Fareed" customModuleProvider="target">
+                        <rect key="frame" x="12" y="5" width="296" height="104.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKs-Ns-dKK">
+                                <rect key="frame" x="8" y="6" width="54.5" height="14.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="54.5" id="adG-yG-8PU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7S1-zd-2yy">
+                                <rect key="frame" x="67.5" y="6" width="8" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTc-aP-Z11">
+                                <rect key="frame" x="262" y="6" width="26" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.34578353169999998" green="0.65542399880000002" blue="0.38984745739999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oqg-fl-ZGP">
+                                <rect key="frame" x="8" y="26.5" width="280" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.35084727112676056" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Sp7-4r-Lbd"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 Apr 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BpP-MS-9Jp">
+                                <rect key="frame" x="8" y="29.5" width="63" height="52.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktB-GE-CIt">
+                                <rect key="frame" x="8" y="82" width="90" height="14.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="ywr-Da-78i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Timing:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSG-BV-1oz">
+                                <rect key="frame" x="103" y="82" width="73.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ktB-GE-CIt" firstAttribute="top" secondItem="BpP-MS-9Jp" secondAttribute="bottom" id="7gs-MH-hoc"/>
+                            <constraint firstItem="Oqg-fl-ZGP" firstAttribute="top" secondItem="mKs-Ns-dKK" secondAttribute="bottom" constant="6" id="CDb-YL-h3a"/>
+                            <constraint firstItem="7S1-zd-2yy" firstAttribute="leading" secondItem="mKs-Ns-dKK" secondAttribute="trailing" constant="5" id="CH3-fv-JKo"/>
+                            <constraint firstItem="ktB-GE-CIt" firstAttribute="leading" secondItem="BpP-MS-9Jp" secondAttribute="leading" id="FHz-ZL-64X"/>
+                            <constraint firstAttribute="trailing" secondItem="pTc-aP-Z11" secondAttribute="trailing" constant="8" id="Fof-TR-sMB"/>
+                            <constraint firstItem="pTc-aP-Z11" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7S1-zd-2yy" secondAttribute="trailing" constant="5" id="Hvn-4e-XaS"/>
+                            <constraint firstItem="Oqg-fl-ZGP" firstAttribute="trailing" secondItem="pTc-aP-Z11" secondAttribute="trailing" id="IXZ-k8-Ra1"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nSG-BV-1oz" secondAttribute="trailing" constant="5" id="NJP-KB-Oi2"/>
+                            <constraint firstItem="Oqg-fl-ZGP" firstAttribute="leading" secondItem="mKs-Ns-dKK" secondAttribute="leading" id="RVD-iF-cD0"/>
+                            <constraint firstAttribute="bottom" secondItem="ktB-GE-CIt" secondAttribute="bottom" constant="8" id="Zvt-1g-3Yb"/>
+                            <constraint firstItem="mKs-Ns-dKK" firstAttribute="leading" secondItem="Nb8-Ty-Zn4" secondAttribute="leading" constant="8" id="bXx-Kh-H11"/>
+                            <constraint firstItem="7S1-zd-2yy" firstAttribute="height" secondItem="mKs-Ns-dKK" secondAttribute="height" id="e6G-i3-b4d"/>
+                            <constraint firstItem="pTc-aP-Z11" firstAttribute="centerY" secondItem="mKs-Ns-dKK" secondAttribute="centerY" id="fRV-NZ-HMM"/>
+                            <constraint firstItem="nSG-BV-1oz" firstAttribute="centerY" secondItem="ktB-GE-CIt" secondAttribute="centerY" id="jwX-43-SGM"/>
+                            <constraint firstItem="BpP-MS-9Jp" firstAttribute="leading" secondItem="Oqg-fl-ZGP" secondAttribute="leading" id="mh7-Dw-dXR"/>
+                            <constraint firstItem="mKs-Ns-dKK" firstAttribute="top" secondItem="Nb8-Ty-Zn4" secondAttribute="top" constant="6" id="rRh-Ww-Efm"/>
+                            <constraint firstItem="7S1-zd-2yy" firstAttribute="centerY" secondItem="mKs-Ns-dKK" secondAttribute="centerY" id="rVR-1f-32l"/>
+                            <constraint firstItem="nSG-BV-1oz" firstAttribute="height" secondItem="ktB-GE-CIt" secondAttribute="height" id="xDK-fD-zMo"/>
+                            <constraint firstItem="nSG-BV-1oz" firstAttribute="leading" secondItem="ktB-GE-CIt" secondAttribute="trailing" constant="5" id="yO3-Ia-md9"/>
+                            <constraint firstItem="BpP-MS-9Jp" firstAttribute="top" secondItem="Oqg-fl-ZGP" secondAttribute="bottom" constant="2" id="z8y-AS-4ZN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Nb8-Ty-Zn4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="DBK-dM-C8m"/>
+                    <constraint firstAttribute="bottom" secondItem="Nb8-Ty-Zn4" secondAttribute="bottom" constant="5" id="oxZ-mN-G0F"/>
+                    <constraint firstItem="Nb8-Ty-Zn4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="uYj-MP-pyZ"/>
+                    <constraint firstAttribute="trailing" secondItem="Nb8-Ty-Zn4" secondAttribute="trailing" constant="12" id="wvW-xM-LUa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDate" destination="BpP-MS-9Jp" id="aIj-Hy-d4Y"/>
+                <outlet property="lblIDTop" destination="7S1-zd-2yy" id="uGl-F2-Kvf"/>
+                <outlet property="lblPrice" destination="pTc-aP-Z11" id="6pN-xn-fnC"/>
+                <outlet property="lblStarttime" destination="nSG-BV-1oz" id="bH5-j9-m6Z"/>
+                <outlet property="lbl_Booking" destination="mKs-Ns-dKK" id="ZUm-9Q-toQ"/>
+                <outlet property="lbl_BookingTime" destination="ktB-GE-CIt" id="93Q-ch-t5s"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="86.806596701649184"/>
+        </tableViewCell>
+    </objects>
+</document>

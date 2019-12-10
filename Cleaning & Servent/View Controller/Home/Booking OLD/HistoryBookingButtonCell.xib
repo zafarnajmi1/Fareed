@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistoryBookingButtonCell" rowHeight="116" id="SxQ-TI-4Et" customClass="HistoryBookingButtonCell" customModule="Fareed">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SxQ-TI-4Et" id="Kfa-Fu-cZQ">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="115.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OGJ-e0-28P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="115.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5C-8s-7cH">
+                                <rect key="frame" x="15" y="15" width="345" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="xrm-ar-oJr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How often you want your cleaning." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7XD-K0-PBZ">
+                                <rect key="frame" x="15" y="40" width="345" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="GE6-CU-frG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ub-aB-1sd" customClass="RoundButton" customModule="Fareed" customModuleProvider="target">
+                                <rect key="frame" x="15" y="73" width="345" height="37.5"/>
+                                <color key="backgroundColor" red="0.41913884880000002" green="0.6298078895" blue="0.29483798150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37.5" id="ajb-5d-9g6"/>
+                                </constraints>
+                                <state key="normal" title="1 Time"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y5C-8s-7cH" firstAttribute="leading" secondItem="OGJ-e0-28P" secondAttribute="leading" constant="15" id="0q7-cj-Rhx"/>
+                            <constraint firstItem="Y5C-8s-7cH" firstAttribute="top" secondItem="OGJ-e0-28P" secondAttribute="top" constant="15" id="3UQ-VI-K3c"/>
+                            <constraint firstAttribute="trailing" secondItem="Y5C-8s-7cH" secondAttribute="trailing" constant="15" id="4qh-pc-UcF"/>
+                            <constraint firstItem="7XD-K0-PBZ" firstAttribute="centerX" secondItem="Y5C-8s-7cH" secondAttribute="centerX" id="Ez9-fu-4bx"/>
+                            <constraint firstItem="7XD-K0-PBZ" firstAttribute="width" secondItem="Y5C-8s-7cH" secondAttribute="width" id="TQq-Ay-Z6O"/>
+                            <constraint firstItem="7ub-aB-1sd" firstAttribute="top" secondItem="7XD-K0-PBZ" secondAttribute="bottom" constant="15" id="YT4-th-OYd"/>
+                            <constraint firstItem="7ub-aB-1sd" firstAttribute="width" secondItem="7XD-K0-PBZ" secondAttribute="width" id="kkC-YS-ccb"/>
+                            <constraint firstAttribute="bottom" secondItem="7ub-aB-1sd" secondAttribute="bottom" constant="5" id="mYK-Co-jds"/>
+                            <constraint firstItem="7ub-aB-1sd" firstAttribute="centerX" secondItem="7XD-K0-PBZ" secondAttribute="centerX" id="wlC-lh-ywT"/>
+                            <constraint firstItem="7XD-K0-PBZ" firstAttribute="top" secondItem="Y5C-8s-7cH" secondAttribute="bottom" id="z19-BV-IFS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="OGJ-e0-28P" secondAttribute="trailing" id="LOI-l8-9ey"/>
+                    <constraint firstItem="OGJ-e0-28P" firstAttribute="top" secondItem="Kfa-Fu-cZQ" secondAttribute="top" id="W77-YC-sUy"/>
+                    <constraint firstItem="OGJ-e0-28P" firstAttribute="leading" secondItem="Kfa-Fu-cZQ" secondAttribute="leading" id="jIH-fs-Ts5"/>
+                    <constraint firstAttribute="bottom" secondItem="OGJ-e0-28P" secondAttribute="bottom" id="sOO-rm-2sg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="22.5" y="122"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssignCell" rowHeight="93" id="Z7P-is-d57" customClass="AssignCell" customModule="Fareed">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="93"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Z7P-is-d57" id="t3b-LK-N67">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="92.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aut-QG-iHO" customClass="ShadowView" customModule="Fareed" customModuleProvider="target">
+                        <rect key="frame" x="10" y="10" width="355" height="72.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58F-2G-ACs">
+                                <rect key="frame" x="10" y="5.5" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BIT-5b-vU0" customClass="BorderView" customModule="Fareed" customModuleProvider="target">
+                                <rect key="frame" x="10" y="31.5" width="335" height="31"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Select Cleaner" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L73-fV-IBR">
+                                        <rect key="frame" x="5" y="5" width="325" height="21"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="L73-fV-IBR" secondAttribute="trailing" constant="5" id="4fM-AP-XdQ"/>
+                                    <constraint firstAttribute="height" constant="31" id="9wY-CD-2qT"/>
+                                    <constraint firstAttribute="bottom" secondItem="L73-fV-IBR" secondAttribute="bottom" constant="5" id="A0p-eF-j7c"/>
+                                    <constraint firstItem="L73-fV-IBR" firstAttribute="leading" secondItem="BIT-5b-vU0" secondAttribute="leading" constant="5" id="OcZ-0m-WC9"/>
+                                    <constraint firstItem="L73-fV-IBR" firstAttribute="top" secondItem="BIT-5b-vU0" secondAttribute="top" constant="5" id="uZI-l0-d1W"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BIT-5b-vU0" firstAttribute="leading" secondItem="HkM-4M-QVw" secondAttribute="leading" constant="10" id="0Io-CH-oWY"/>
+                            <constraint firstItem="BIT-5b-vU0" firstAttribute="top" secondItem="58F-2G-ACs" secondAttribute="bottom" constant="5" id="21M-Ru-VVF"/>
+                            <constraint firstItem="58F-2G-ACs" firstAttribute="width" secondItem="BIT-5b-vU0" secondAttribute="width" id="D6s-su-2ax"/>
+                            <constraint firstItem="58F-2G-ACs" firstAttribute="centerX" secondItem="BIT-5b-vU0" secondAttribute="centerX" id="i8F-eN-ekz"/>
+                            <constraint firstItem="58F-2G-ACs" firstAttribute="top" secondItem="HkM-4M-QVw" secondAttribute="top" constant="5.5" id="lMm-zk-Pvo"/>
+                            <constraint firstItem="HkM-4M-QVw" firstAttribute="trailing" secondItem="BIT-5b-vU0" secondAttribute="trailing" constant="10" id="sXh-gF-Bqz"/>
+                            <constraint firstAttribute="bottom" secondItem="BIT-5b-vU0" secondAttribute="bottom" constant="10" id="yq1-V8-Qrv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HkM-4M-QVw"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="Aut-QG-iHO" firstAttribute="top" secondItem="t3b-LK-N67" secondAttribute="top" constant="10" id="U8N-tf-yen"/>
+                    <constraint firstAttribute="trailing" secondItem="Aut-QG-iHO" secondAttribute="trailing" constant="10" id="bv6-QB-huN"/>
+                    <constraint firstItem="Aut-QG-iHO" firstAttribute="leading" secondItem="t3b-LK-N67" secondAttribute="leading" constant="10" id="qAL-rd-n8E"/>
+                    <constraint firstAttribute="bottom" secondItem="Aut-QG-iHO" secondAttribute="bottom" constant="10" id="xbe-sk-scf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblMain" destination="58F-2G-ACs" id="XgU-cv-9fW"/>
+                <outlet property="txtFieldMain" destination="L73-fV-IBR" id="8bG-wx-CEk"/>
+            </connections>
+            <point key="canvasLocation" x="-138.5" y="410.5"/>
+        </tableViewCell>
+    </objects>
+</document>

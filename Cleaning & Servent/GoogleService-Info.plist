@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>65486751357-ld1t5ogq6clnu9ppq1jab1efmsg6gtd1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.65486751357-ld1t5ogq6clnu9ppq1jab1efmsg6gtd1</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>65486751357-d8luf693h89dp2m9s3s4e1kl8vi7kt04.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBA65I_JoNT5eDT169fdZ3Un9nbFe06mGw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>65486751357</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mytech.fareed</string>
+	<key>PROJECT_ID</key>
+	<string>cleaningmaintena-1535547050710</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cleaningmaintena-1535547050710.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:65486751357:ios:303042110c61776dc91314</string>
+	<key>DATABASE_URL</key>
+	<string>https://cleaningmaintena-1535547050710.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,293 @@
+PODS:
+  - AAPickerView (1.0)
+  - ADEmailAndPassword (1.0.15)
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CardIO (5.4.1)
+  - Cosmos (19.0.3)
+  - DLRadioButton (1.4.12)
+  - FacebookCore (0.6.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.43)
+  - FacebookLogin (0.6.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.43)
+    - FBSDKLoginKit (~> 4.43)
+  - FacebookShare (0.6.1):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.43)
+    - FBSDKShareKit (~> 4.43)
+  - FBSDKCoreKit (4.44.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.44.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.44.1):
+    - FBSDKCoreKit
+  - Firebase/Core (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.3)
+  - Firebase/CoreOnly (6.10.0):
+    - FirebaseCore (= 6.3.1)
+  - Firebase/Messaging (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.6)
+  - FirebaseAnalytics (6.1.3):
+    - FirebaseCore (~> 6.3)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.1.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3.901)
+  - FirebaseAnalyticsInterop (1.4.0)
+  - FirebaseCore (6.3.1):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+  - FirebaseCoreDiagnostics (1.1.1):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.0.0)
+  - FirebaseInstanceID (4.2.5):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.1.6):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - GCNetworkReachability (1.3.2)
+  - GoogleAppMeasurement (6.1.3):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3.901)
+  - GoogleDataTransport (3.0.0)
+  - GoogleDataTransportCCTSupport (1.2.0):
+    - GoogleDataTransport (~> 3.0)
+    - nanopb (~> 0.3.901)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GoogleUtilities/AppDelegateSwizzler (6.3.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.3.1)
+  - GoogleUtilities/Logger (6.3.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.3.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.3.1)"
+  - GoogleUtilities/Reachability (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.3.1):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.1)
+  - INSPhotoGallery (1.2.3)
+  - InstagramLogin (1.3.0)
+  - IQKeyboardManagerSwift (6.2.1)
+  - Kingfisher (5.5.0)
+  - libPhoneNumber-iOS (0.9.13)
+  - MBProgressHUD (1.1.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - PayPal-iOS-SDK (2.18.1):
+    - PayPal-iOS-SDK/CardIO (= 2.18.1)
+    - PayPal-iOS-SDK/Core (= 2.18.1)
+  - PayPal-iOS-SDK/CardIO (2.18.1):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.18.1)
+  - Protobuf (3.10.0)
+  - SDWebImage (5.0.1):
+    - SDWebImage/Core (= 5.0.1)
+  - SDWebImage/Core (5.0.1)
+  - SwiftyJSON (5.0.0)
+  - WARangeSlider (1.1.1)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - AAPickerView
+  - ADEmailAndPassword
+  - Alamofire
+  - AlamofireImage
+  - Cosmos
+  - DLRadioButton
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - FBSDKLoginKit
+  - Firebase/Core
+  - Firebase/Messaging
+  - GCNetworkReachability
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - GoogleSignIn
+  - INSPhotoGallery (from `https://github.com/adnanAhmad786/INSPhotoGallery`)
+  - InstagramLogin
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - libPhoneNumber-iOS
+  - MBProgressHUD
+  - PayPal-iOS-SDK
+  - SDWebImage
+  - SwiftyJSON
+  - WARangeSlider
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AAPickerView
+    - ADEmailAndPassword
+    - Alamofire
+    - AlamofireImage
+    - Bolts
+    - CardIO
+    - Cosmos
+    - DLRadioButton
+    - FacebookCore
+    - FacebookLogin
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - GCNetworkReachability
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - InstagramLogin
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - libPhoneNumber-iOS
+    - MBProgressHUD
+    - PayPal-iOS-SDK
+    - SDWebImage
+    - SwiftyJSON
+    - WARangeSlider
+  trunk:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleUtilities
+    - nanopb
+    - Protobuf
+    - XLPagerTabStrip
+
+EXTERNAL SOURCES:
+  INSPhotoGallery:
+    :git: https://github.com/adnanAhmad786/INSPhotoGallery
+
+CHECKOUT OPTIONS:
+  INSPhotoGallery:
+    :commit: 8d415e3c5691f87cb8cc9e9fb4aa67848af5fad7
+    :git: https://github.com/adnanAhmad786/INSPhotoGallery
+
+SPEC CHECKSUMS:
+  AAPickerView: 32334007f7bb541db2b2f8663806f0a6636fdfeb
+  ADEmailAndPassword: 8030215991923ddd82767742c01ab58325cfeb0a
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  Cosmos: a6fb17284281fa12cf4c85c2efecd440a215ec44
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  FacebookCore: 38cd3a4078738d6f648eb9b6b9d35b02d693e9a1
+  FacebookLogin: 658b0569961a081a0890f5f4dbf69ced00657d9e
+  FacebookShare: 84bccbc222fc09c839b851925ad6c295a4ab7840
+  FBSDKCoreKit: a823ae35bdb60ebb8d7a7e51abe7c5d87d2bfced
+  FBSDKLoginKit: 54ae59987f2a8703021557c90a9aebb9e5c2bef6
+  FBSDKShareKit: 526d4cfb713d24855fa23d0dd74e191accd3a720
+  Firebase: 5e6b7b12bf9adb90986688edc06b156c37e109cd
+  FirebaseAnalytics: 0e3ecff2c5d86070f7d4325e21f1edabfbd558dc
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
+  FirebaseCore: 064c2dd92a8ca5974bbdcb080df9921e46bd34cd
+  FirebaseCoreDiagnostics: af29e43048607588c050889d19204f4d7b758c9f
+  FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
+  FirebaseInstanceID: 550df9be1f99f751d8fcde3ac342a1e21a0e6c42
+  FirebaseMessaging: 35edef69a6af9b34e9e44624089f054be3c09089
+  GCNetworkReachability: 2a7dd53d362220326b3e38df68c91b3ef84418d1
+  GoogleAppMeasurement: 434cc7be25e71dc04b8d0e3079125127b330e84a
+  GoogleDataTransport: f6fe28f43e3a300736854260961ad485b473edc5
+  GoogleDataTransportCCTSupport: 862418a8cdda520c4dd4af83a756d04efe4a6990
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: 1c60c2a26e9d1e73bcb0c6f89609db8d777d13c1
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  INSPhotoGallery: 888cfeb38e8c18393a4dba7dea4da932812947a3
+  InstagramLogin: 55a3ab7aa6ee3f75bf06fdec1bb8f1e01e2c0b00
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  Kingfisher: 6fe5e67a90fd335e49b0f5c075ff55ac5ebedd94
+  libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  PayPal-iOS-SDK: 10654cd111e911a9807bddb96fae81aacb8e9915
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  SDWebImage: 27dd2c9ea07a2252f94557c9fbb6105ee94b74c9
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  WARangeSlider: 54b3e0853b8d16c444fd539005901aecee86837d
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: 8bbf6bc00ba1a5c33811545772b92e627b1e0dd7
+
+COCOAPODS: 1.8.3

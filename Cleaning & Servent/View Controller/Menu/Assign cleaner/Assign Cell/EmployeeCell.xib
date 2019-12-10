@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="EmployeeCell" rowHeight="61" id="KGk-i7-Jjw" customClass="EmployeeCell" customModule="Fareed" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2uF-hf-H2C">
+                        <rect key="frame" x="20" y="15" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="SYZ-8m-2Fm"/>
+                            <constraint firstAttribute="width" constant="25" id="frj-UV-fpP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Oq-dm-sEF">
+                        <rect key="frame" x="55" y="17.5" width="255" height="20"/>
+                        <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2uF-hf-H2C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="163-0a-uZM"/>
+                    <constraint firstItem="2uF-hf-H2C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="47k-CZ-9qM"/>
+                    <constraint firstItem="7Oq-dm-sEF" firstAttribute="centerY" secondItem="2uF-hf-H2C" secondAttribute="centerY" id="WRc-Ie-wgZ"/>
+                    <constraint firstItem="7Oq-dm-sEF" firstAttribute="leading" secondItem="2uF-hf-H2C" secondAttribute="trailing" constant="10" id="e1D-Kc-mHc"/>
+                    <constraint firstAttribute="bottom" secondItem="2uF-hf-H2C" secondAttribute="bottom" constant="15" id="t9z-TK-6Cc"/>
+                    <constraint firstAttribute="trailing" secondItem="7Oq-dm-sEF" secondAttribute="trailing" constant="10" id="tWG-o1-DDa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="img_check" destination="2uF-hf-H2C" id="VLE-LK-SbE"/>
+                <outlet property="lbl_name" destination="7Oq-dm-sEF" id="uzl-td-LxD"/>
+            </connections>
+            <point key="canvasLocation" x="133" y="136"/>
+        </tableViewCell>
+    </objects>
+</document>

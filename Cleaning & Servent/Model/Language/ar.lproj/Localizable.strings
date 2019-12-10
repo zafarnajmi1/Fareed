@@ -1,0 +1,452 @@
+/* 
+  Localizable.strings
+  Cleaning & Servent
+
+  Created by waseem on 23/05/2018.
+  Copyright © 2018 Jaidee. All rights reserved.
+*/
+/*
+ Localizable.strings
+ Cleaning & Servent
+ 
+ Created by waseem on 23/05/2018.
+ Copyright © 2018 Jaidee. All rights reserved.
+ */
+"Send Review Request" = "ارسال طلب للتقيم";
+"Home" =  "الرئيسية";
+"Client" = "العملاء";
+"Unknown place Cordinates Selected  " = "مكان غير معروف يحمي مختارة";
+"Please Select the Time Slot" = "يرجى تحديد الفاصل الزمني";
+"Photo And Videos" = "الفيديوهات والصور ";
+//"زبون";
+"No Reviews" = "لم يتم تقديم تعليقات";
+"Reviews" =  "التقييمات";
+"User Profile" =  "ملف تعريفي للمستخدم";
+"Company Profile" =  "ملف الشركة";
+"Manage Cleaner" = "ادراة عمال النظافة ";
+"Manage Cleaners" = "عمال النظافة";
+"Manage Employment" = "ادارة العمال";
+//"إدارة المنظفات";
+"Change Language" =  "غير اللغة";
+"Currency" =  "غير العملة";
+"Testimonial" =  "التوصيات";
+"Edit Gender" = "تعديل الجنس";
+"Please select your gender" = "يرجى تحديد جنسك";
+"Mark Completed" = "علامة مكتملة";
+" Services" = "الخدمات";
+//" خدمات";
+"Services" = "الخدمات";
+//" خدمات";
+"FAQ" =  "التعليمات";
+"Term And Condition" =  "الأحكام والشروط";
+"About" =  "حول";
+"Contact Us" = "تواصل معنا";
+"History" = "الحجوزات";
+//"التاريخ";
+"Address Book" =  "عنوان الحجز";
+"Notification" =  "الاشعارات";
+"Profile" =  "الملف الشخصي";
+"Create Company" =  "إنشاء شركة";
+"Write Message" =  "اكتب رسالة";
+"Invalid Name" =  "اسم غير صالح";
+"Invalid Email" =  "بريد إلكتروني خاطئ";
+"Invalid Phone Number" =  "رقم الهاتف غير صحيح";
+"Thank you for contacting us. We will contact you soon. " =  "أشكركم على الاتصال بنا. سوف نتصل بك قريبا.";
+"Name" =  "الاسم";
+"Email" =  "البريد الإلكتروني";
+"Phone:" =  "الهاتف:";
+"Phone" =  "الهاتف";
+"Message" = "تنبيه";
+"Submit" =  "إرسال";
+//"Contact Us" =  "اتصل بنا";
+"About Us" = "من نحن";
+"Term & Condition" =  "الشروط و الأحكام";
+"Select Currency" =  "اختر العملة";
+"Fareed Services" =  "خدمات فرید";
+"CONTINUE" =  "استمر";
+"Done" = " تم ";
+
+// "فعله";
+"Select Language" =  "اختار اللغة";
+"English" =  "الإنجليزية";
+"Arabic" =  "عربى";
+"No Website" =  "لا موقع";
+"No Registration Number" =  "لا يوجد رقم تسجيل";
+"No Origin" =  "لا أصل";
+"The selected Gender is invalid" = "الجنس المحدد غير صالح";
+"Registration Number" =  "رقم التسجيل";
+"Login successful" = "تسجيل الدخول ناجح";
+
+"Company" = "الشركة";
+"Company Name:" =  "اسم الشركة:";
+"Email:" =  "البريد الإلكتروني:";
+"Registration Number:" =  "رقم التسجيل:";
+"Origin:" =  "الأصل:";
+"Website:" =  "الموقع الالكتروني:";
+//"موقع الكتروني:";
+"Website:" = "الموقع الالكتروني:";
+//"موقع الكتروني:";
+"Logout" = "الخروج";
+"LOGOUT" =  "تسجيل الخروج";
+"Booking Items" =  "بنود الحجز";
+"Mark Finished" =  "مارك انتهى";
+"Date" =  "تاريخ";
+"Start Time" =  "وقت البدء";
+"End Time" =  "وقت النهاية";
+"Attach Invoice" =  "إرفاق الفاتورة";
+"Cancel" =  "إلغاء";
+"Orign" = "الأصل";
+"Booking History" =  "حجز التاريخ";
+"No Orign" = "لا أصل";
+"Gardens Maintenance" = "صيانة الحدائق";
+"Wallpaper" = "ورق الجدران";
+"Television Broadcasting" = "البث التلفزيوني";
+"Sanitary Extension" = "ملحق صحي";
+"Working Hour" = "ساعة العمل";
+"Available" =  "متاح";
+"Booking" =  "الحجز";
+"Step 3: Booking" =  "الخطوة الثالثة: الحجز";
+"When would you like your Service?" =  "متى تفضل الخدمات؟";
+//"Which time would you like us to start?" =  "في اي وقت تريد ان نبدأ؟";
+//"Address" =  "عنوان";
+"Any Special Instructions?" =  "أي تعليمات خاصة؟";
+"ADD PHOTO" =  "إضافة صورة";
+"ADD VIDEO" =  "أد فيديو";
+"Total Bill :" =  "إجمالي الفاتورة :";
+"BOOK NOW" =  "احجز الآن";
+"Search" =  "البحث";
+"Electricity maintenance" = "صيانة الكهرباء";
+"electricity maintenance" = "صيانة الكهرباء";
+
+"Air condition maintenance" = "صيانة المكيفات";
+"air condition maintenance" = "صيانة المكيفات";
+
+"General maintenance" = "صيانة عامة";
+"general maintenance" = "صيانة عامة";
+
+"Gas cylinder" = "اسطوانة غاز";
+"ok" =  "حسنا";
+
+"New Address" =  "العنوان الجديد";
+"About Location:" =  "حول الموقع:";
+"Booking Details" =  "تفاصيل الحجزتفاصيل الحجز";
+"Start Timing: " =  "بدء التوقيت:";
+"Special Instruction" =  "تعليمات خاصة";
+"Assigned Cleaners" =  "اضافة عمال النظافة";
+"No Cleaner" =  "لا يوجد عمال نظافة";
+"Invoice" =  "فاتورة";
+"Check Employee Availability" =  "تحقق من توفر الموظف";
+"Mark Completed" =  "اكتملت العلامة";
+"Cancel Booking" =  "إلغاء الحجز";
+"Assign Cleaner" = "توفير موظف نظافة";
+//"تعيين منظف";
+"Booking Notes" =  "ملاحظات الحجز";
+"Navigate to Client" =  "انتقل إلى العميل";
+"SEND" =  "إرسال";
+//"Add New Cleaner" =  "إضافة عامل نظافة جديد";
+//"إضافة منظف جديد";
+"Add New Cleaner" = "اضافة عامل جديد";
+
+//"Manage Cleaner" = "ادارة عمال النظافة ";
+//"إدارة الأنظف";
+"Select Gender" =  "اختار الجنس";
+"Male" =  "ذكر";
+"Female" =  "أنثى";
+"Home Servants Provider" = "مزود الخدمة الرئيسية";
+"Clients" = "العملاء";
+//"زبون" ;
+"Services:" = "الخدمات:";
+
+//"خدمات:";
+
+"male" =  "ذكر";
+"female" =  "أنثى";
+"Pest Control" = "مكافحة الحشرات";
+
+"ID number" =  "ID number";
+//"Select services" =  "اختر الخدمات";
+
+"Select Services" =  "حدد الخدمات﻿";
+"Company Reviews" =  "تقييمات الشركة";
+//"تقييمات شركة";
+"Cleaners Reviews" =  "تقييمات عامل النظافة";
+//"منظفات مراجعات";
+"Fareed" = "فرید";
+//"التنظيف والصيانة";
+"Select your service" =  "حدد الخدمة";
+"Cleaning" =  "تنظيف";
+"cleaning" =  "تنظيف";
+"Maintenance" =  "الصيانة";
+"maintenance" =  "الصيانة";
+//"Cleaning" =  "التنظيف";
+
+"Step 1: Select services" =  "الخطوة الأولى: حدد الخدمات";
+"SEARCH" =  "البحث";
+"Select Company" =  "اختر الشركة";
+"Step 2: Select Company" =  "الخطوة الثانية: اختر الشركة";
+"ADD ADDRESS" =  "إضافة موقع";
+"Access Denied" =  "تم الرفض";
+"Please Login or Register  to access." =  "الرجاء تسجيل الدخول أو التسجيل للوصول.";
+"Componies" =  "الشركات";
+"Services" = "الخدمات";
+//"خدمات";
+"Pending" =  "قيد الانتظار";
+"Confirmed" =  "تم التأكيد";
+"Paid" =  "مدفوع";
+"In progress" =  "قيد التنفيذ";
+"Finished" =  "تم الانتهاء";
+"Cancelled" =  "تم الإلغاء";
+"Booking Detail" =  "تفاصيل الحجز";
+"Photos And Videos" =  "الصور والفيديوهات";
+"Submit Your Payment" =  "تقديم الدفع الخاص بك";
+
+"Update Schedule" =  "تحديث الجدول";
+"Success" = "نجاح";
+"Write Review" =  "أكتب مراجعة";
+"Check Employee Availability" =  "تحقق من توفر الموظف";
+"Mak Completed" = "تم الانتهاء";
+//"ماك اكتمل";
+"Navigate to Client" =  "انتقل إلى العميل";
+"Company Information" =  "معلومات الشركة";
+"Language" =  "لغة";
+"Company Name" =  "اسم الشركة";
+"Company Phone" =  "هاتف الشركة";
+"End Time" =  "وقت النهاية";
+"Rate per Hour" =  "السعر لكل ساعة";
+"Per Hour" = "لكل ساعة"; //me
+"About Company" =  "عن الشركة";
+"Company Address" =  "عنوان الشركة";
+"Company Type" =  "نوع الشركة";
+"Company type:" =  "نوع الشركة";
+"SELECT SERVICE" =  "اختيار الخدمة";
+"Login" =  "تسجيل الدخول";
+"Please enter your mobile number to link it with your order" =  "يرجى إدخال رقم هاتفك المحمول لربطه مع طلبك";
+"Agree to " = "الموافقة على";
+"Terms & Conditions" =  "الأحكام والشروط";
+"NEXT" =  "التالى";
+"Select a country" =  "اختر دولة";
+"Please Enter Password for Mobile" =  "يرجى إدخال كلمة المرور للجوال";
+"Forget password?" =  "نسيت كلمة المرور؟";
+"Verification" =  "التحقق";
+"Please Enter Verification code send to" =  "يرجى إدخال رمز التحقق إرسال إلى";
+"Resend" =  "إعادة إرسال";
+"Filters" =  "فلتر";
+//"مرشحات";
+"Location" =  "الموقع";
+"Top Rated" = "التقييم";
+//"أعلى التقييمات";
+"Latest" = "أحدث الشركات";
+//"الأجدد";
+"Phone Number" =  "رقم الهاتف";
+//"Company URL" =  "رابط الشركة";
+"Company URL" =  "رابط الشركة على الانترنت";
+"BOOK NOW" =  "احجز الآن";
+"Customer Survey Question" =  "سؤال مسح العملاء";
+"Rate the cleaner" =  "معدل نظافة";
+"Write review" =  "أكتب مراجعة";
+//"Assign Cleaner" = "توفير موظف نظافة";
+"Assign Cleaner" = "توفير موظف";
+//"تعيين منظف";
+"Select Cleaner" =  "اختر منظف";
+"OK" =  "حسنا";
+"Alert" =  "تنبيه";
+"Please login for details" = "الرجاء تسجيل الدخول للحصول على التفاصيل";
+//"Please login for detail" = ">الرجاء تسجيل الدخول للحصول على التفاصيل</string>";//يرجى الدخول للتفاصيل";
+
+"we have e-mailed your password reset link!" =  "لدينا البريد الإلكتروني الخاص بك رابط إعادة تعيين كلمة المرور!";
+"Password cannot be less than 6 Characters" =  "لا يمكن أن تكون كلمة المرور أقل من 6 أحرف";
+"Please Enter Password" =  "من فضلك أدخل كلمة المرور";
+"Invalid Phone Number" =  "رقم الهاتف غير صحيح";
+"Please Accept Terms & Conditions" =  "يرجى قبول الشروط والأحكام";
+"Write something..." =  "أكتب شيئا...";
+"Please enter review" =  "يرجى إدخال مراجعة";
+"Give rating" =  "اعطي تصنيف";
+"This Services Includes" =  "هذه الخدمة مشمولة";
+"What Does This Services Not Include" =  "ما الذي لا تشمله هذه الخدمة";
+"Booking Timing" =  "توقيت الحجز";
+"Please select services" =  "يرجى اختيار الخدمات";
+"Name missing" =  "الاسم مفقود";
+"Arabic Calendar" = "التقويم العربي";
+"CR Number" = "رقم السجل التجاري";
+
+"ID number missing" =  "ID number في عداد المفقودين";
+"About missing" =  "عن المفقودين";
+"Phone number missing" =  "رقم الهاتف مفقود";
+"Address missing" =  "العنوان مفقود";
+"Client Number:" =  "رقم الزبون:";
+"Visits" =  "مرة";
+"You are not able to Add Booking Notes!" =  "أنت غير قادر على إضافة ملاحظات الحجز!";
+
+//"maintenance" =  "اعمال صيانة";
+"Invalid Name" =  "اسم غير صالح";
+"Invalid Phone Number" =  "رقم الهاتف غير صحيح";
+"Choose start time" =  "اختر وقت البدء";
+"Choose end time" =  "اختر وقت الانتهاء";
+"Rate Per Hour Required" =  "معدل في الساعة المطلوبة";
+"Enter about company info" =  "أدخل معلومات عن الشركة";
+"Choose address" =  "اختر العنوان";
+"Choose company type." =  "اختر نوع الشركة.";
+"Service required" =  "الخدمة المطلوبة";
+"Compny Info updated successfully!!" =  "معلومات الشركة تم تحديثها بنجاح !!";
+"Please choose Service Type first." =  "يرجى اختيار نوع الخدمة أولاً.";
+"No Booking Present" =  "لا يوجد";
+"Are you sure to want to cancel this booking?" =  "هل تريد بالتأكيد إلغاء هذا الحجز؟";
+"Are you sure you want to delete it?" =  "هل أنت متأكد أنك تريد حذف ذلك؟";
+"Address deleted successfully!" =  "تم حذف العنوان بنجاح!";
+"Turn On Location Services to Allow \"Maps\" to Determine Your Location" =  "شغّل خدمات الموقع للسماح للخرائط بتحديد موقعك";
+"Edit Name" =  "تعديل الاسم";
+"Please Enter your Name" =  "من فضلك أدخل إسمك";
+"Edit Email" =  "تحرير البريد الالكتروني";
+"Please Enter your Email" =  "رجاءا أدخل بريدك الإلكتروني";
+"No URL" =  "لا يوجد عنوان URL";
+"Detail..." =  "التفاصيل ...";
+"Please choose address" =  "يرجى اختيار العنوان";
+"Please choose booking time" =  "يرجى اختيار وقت الحجز";
+"Tap to Select Address" =  "اضغط لتحديد العنوان";
+"Special Instructions (Optional)" =  "تعليمات خاصة (اختياري)";
+"Write instrructions here..." =  "اكتب التعليمات هنا ...";
+"Select Service's Days" =  "اختر أيام الخدمة";
+"Upload Media (Optional)" =  "تحميل الوسائط (اختياري)";
+"Selected Servants" =  "الخدم المختارون";
+"Save This Language" =  "حفظ هذه اللغة";
+"Edit Password" =  "تحرير كلمة المرور";
+"Reste your password" =  "اعد ضبط كلمه السر";
+"New Password" =  "كلمة مرور جديدة";
+"Please Enter Current Password" =  "الرجاء إدخال كلمة المرور الحالية";
+"Current Password" =  "كلمة المرور الحالية";
+"Confirm Password" =  "تأكيد كلمة المرور";
+"Address " = "العنوان";
+"Address" = "العنوان";
+"Update" = "تحديث";
+"UPDATE" = "تحديث";
+
+"Update Address" = "تحديث العنوان";
+"Booking Time" = "وقت الحجز";
+"Booking Time :" = "وقت الحجز:";
+//"Call Services Provider" = "مزود خدمات الاتصال";
+"Call Service Provider" = "مقدم خدمة الاتصال";
+"Booking Timing:" = "وقت الحجز: ";
+"Rating" = "التقييم";
+//"تقييم";
+"VIEW DETAIL" = "عرض التفاصيل";
+"Company Detail" = "تفاصيل الشركة" ;
+"Select Address" = "حدد العنوان";
+"Enter Account Password For" = "أدخل كلمة مرور الحساب";
+"Change Password" = "تغيير كلمة المرور";
+"Companies" = "الشركات";
+"Work Hour: " = "ساعة العمل: ";
+"We Provide " = "نحن نقدم";
+"Password" = "كلمه السر";
+"Verfication code" = "شيفرة التأكيد";
+"Error" = "نحن نقدم";
+"OR" = "أو";
+"Working Hours" = "ساعات العمل";
+"Please Enter Verification code send to " = "يرجى إدخال رمز التحقق الإرسال إلى";
+"REGISTER YOUR ACCOUNT" = "سجل حسابك";
+"Register" = "تسجيل";
+"Please Enter Name!" = "من فضلك أدخل الاسم";
+"Please Enter Email!" = "من فضلك أدخل البريد الإلكتروني";
+"Please Enter Valid Email!" = "الرجاء إدخال بريد إلكتروني صحيح";
+"Please Enter Password" = "من فضلك أدخل كلمة المرور";
+"Please Enter Password Below 6 Characters" = "يرجى إدخال كلمة المرور أدناه 6 أحرف";
+"Please Enter Confirm Password" = "الرجاء إدخال تأكيد كلمة المرور";
+"Password do not matched" = "كلمة المرور غير متطابقة";
+"Select Location" = "اختر موقعا";
+//"Company working hours passed. Please select another date" = "مرت ساعات عمل الشركة. يرجى تحديد تاريخ آخر";
+"Search..." = "البحث...";
+"Low Price" = "أقل الأسعار";
+"Price" = "السعر";
+
+//"سعر منخفض";
+"Please select your gender." = "يرجى تحديد جنسك";
+"Logout" = "الخروج";
+"Send Message To Client" = "إرسال رسالة إلى العميل";
+"Navigate To Client" = "انتقل إلى العميل";
+"Write Note" = "اكتب ملا حظة";
+"New Booking" = "الحجز الجديد";
+"Booking Canceled" = "تم الغاء الحجز";
+"Booking Updated" = "تم تحديث الحجز";
+"Edit Phone" = "تحرير الهاتف";
+"Please Enter your Phone Number" = "يرجى إدخال رقم الهاتف الخاص بك";
+"Please Enter New Password" = "الرجاء إدخال كلمة مرور جديدة";
+"Please Enter Password Above 6 Characters" = "الرجاء إدخال كلمة المرور أعلى من 6 أحرف";
+"Confirm Booking" = "تأكيد الحجز";
+"Privacy Policy" = "سياسة خاصة";
+"Please wait" = "أرجو الإنتظار";
+
+"No Record Found" = "لا يوجد سجلات";
+"Make Video" = "جعل الفيديو";
+"Your camera is not accessible. Please check your device settings and then try again." = "لا يمكن الوصول إلى الكاميرا الخاصة بك. يرجى التحقق من إعدادات جهازك ثم المحاولة مرة أخرى.";
+
+"Take Photo" = "تصوير";
+"View Phone Gallery" = "عرض معرض الهاتف";
+"Choose Source" = "اختر المصدر";
+"Please login to continue." = "الرجاء تسجيل الدخول للمتابعة.";
+
+"User Company" = "شركة المستخدم";
+"Booking :" =  "الحجز:";
+"Total Reviews:" = "إجمالي التعليقات:";
+
+"Booking finished" = "انتهى الحجز";
+"No" = "لا";
+"Yes" = "نعم";
+"Clear" = "واضح";
+"Invalid Phone" = "رقم هاتف غير صحيح";
+"Required Accepting Terms & Conditions" = "شروط وأحكام القبول المطلوبة";
+"Password" = "كلمة المرور";
+"ENTER PASSWORD" = "أدخل كلمة المرور";
+"Rate This Cleaner" = "قيم هذا المنظف";
+
+"Please write instructions" = "يرجى كتابة التعليمات";
+
+"Employee Detail" = "Employee Detail";
+"ADD NOW" = "إضافة الآن";
+"Do you want to cancel" = "هل تريد الالغاء";
+"Please Enter Phone" = "الرجاء إدخال رقم الهاتف";
+"Enter Current Password" = "إدخل كلمة السر الحالية";
+"Enter New Password" = "أدخل كلمة مرور جديدة";
+"The password confirmation does not match" = "تأكيد كلمة المرور غير متطابق";
+"Select Service" = "حدد الخدمات";
+"Enter Address" = "ادخل العنوان";
+"Booking: " =  "الحجز: ";
+"Booking finished" = "تم الانتهاء الحجز";
+"Company working hours passed. Please select another date" = "ساعات عمل الشركة. يرجى تحديد تاريخ آخر";
+"What time would you like us to start?" = "ما الوقت الذي تريد منا أن نبدأ؟";
+"Employee at least have one service" = "موظف أتليست لديها خدمة واحدة";
+"Select time slots" = "حدد الفواصل الزمنية";
+"Sort By" = "صنف حسب";
+"Turn On Location Services to Allow \"Maps\" to Determine Your Location" = "قم بتشغيل خدمات الموقع للسماح لـ \"الخرائط\" بتحديد موقعك";
+"Do you want to remove?" = "هل تريد إزالته؟";
+"HISTORY & REVIEWS" = "التاريخ والتعليقات";
+"Cleaner Detail" = "تفاصيل الأنظف";
+"Terms & Conditions" = "الأحكام والشروط";
+"Testimonials" = "التوصيات";
+"Notifications" = "الاشعارات";
+"No Company Available" = "لا توجد شركة متاحة";
+"Do you really want to Confirm the booking?" = "هل تريد حقًا تأكيد الحجز؟";
+"Employees are not Available. Give booking note or cancel booking" = "الموظفين غير متوفر. تقديم مذكرة الحجز أو إلغاء الحجز";
+"Please Enter a valid Phone Number" = "يرجى إدخال رقم هاتف صالح";
+
+
+
+"Jan" = "يناير";
+"Feb" = "فبراير";
+"Mar" = "مارس";
+"Apr" = "إبريل";
+"May" = "مايو";
+"Jun" = "يونيو";
+"Jul" = "يوليه";
+"Aug" = "أغسطس";
+"Sep" = "سبتمبر";
+"Oct" = "أكتوبر";
+"Nov" = "نوفمبر";
+"Dec" = "ديسمبر";
+
+
+"Sun" = "الأحد";
+"Mon" = "الاثنين";
+"Tue" = "الثلاثاء";
+"Wed" = "الأربعاء";
+"Thu" = "الخميس";
+"Fri" = " الجمعة";
+"Sat" = "السبت";
